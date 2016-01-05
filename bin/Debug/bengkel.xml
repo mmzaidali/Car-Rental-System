@@ -1,0 +1,340 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+bengkel
+</name>
+</assembly>
+<members>
+<member name="T:bengkel.crsDataSet2.adminDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:bengkel.crsDataSet2.bookingDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:bengkel.crsDataSet2.carDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:bengkel.crsDataSet2.payDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:bengkel.crsDataSet2.userDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:bengkel.crsDataSet2.adminRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:bengkel.crsDataSet2.bookingRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:bengkel.crsDataSet2.carRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:bengkel.crsDataSet2.payRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:bengkel.crsDataSet2.userRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:bengkel.crsDataSet2.adminRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:bengkel.crsDataSet2.bookingRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:bengkel.crsDataSet2.carRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:bengkel.crsDataSet2.payRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:bengkel.crsDataSet2.userRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:bengkel.crsDataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:bengkel.crsDataSet2TableAdapters.adminTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:bengkel.crsDataSet2TableAdapters.bookingTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:bengkel.crsDataSet2TableAdapters.carTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:bengkel.crsDataSet2TableAdapters.payTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:bengkel.crsDataSet2TableAdapters.userTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:bengkel.crsDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(bengkel.crsDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:bengkel.crsDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(bengkel.crsDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:bengkel.crsDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(bengkel.crsDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:bengkel.crsDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:bengkel.crsDataSet2TableAdapters.TableAdapterManager.UpdateAll(bengkel.crsDataSet2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:bengkel.crsDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:bengkel.crsDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:bengkel.crsDataSet2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources._2009_toyota_wish_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.aboutus_banner">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.aboutus_banner1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.aboutus_banner11">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.aboutus_banner2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.aboutus_banner3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.AlorGajah">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.ALZA_250">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.avanza">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.AWARE_HELPLINE1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.banner">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.banner_carrental1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.car_banner">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.Cars_Thrifty_Dollar_banner">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.contactus_banner">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.contactus_banner1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.contactus_banner2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.cool_wooden_wall_cool_twitter_backgrounds">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.customer">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.customer1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.download">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.ediot">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.editor">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.honda_city_wallpapers_hd">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.imagenprincipal">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.images">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.images__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.images__2_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.images__3_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.images__4_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.images__5_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.images__7_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.jasin">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.kia">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.melaka_map">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.melakaSentral">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.myvi">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.New_Toyota_Alphard_8">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.OFFICE">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.Perodua_logo_e1338877178624">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.Perodua_Viva_Elite_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.peugeot0logo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.proton_exora">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.proton_preve">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.proton_saga">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.proton_satria_neo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.proton_suprima_s">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.register">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.vios">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:bengkel.My.Resources.Resources.water_curve_chairs">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:bengkel.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
